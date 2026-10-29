@@ -83,7 +83,7 @@ async function handleRegister(e) {
     e.preventDefault();
     setMessage("");
 
-    // Frontend demo only: credentials are not verified.
+    
     if (!loginEmail.trim() || !loginPassword) {
       setMessage("Please enter your email and password.");
       return;
